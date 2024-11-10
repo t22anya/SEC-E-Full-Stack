@@ -1,0 +1,40 @@
+div p{
+    color: red;
+    background-color: antiquewhite;
+    border: 2px dashed black;
+}
+div>p{
+    color: red;
+    background-color: antiquewhite;
+    border: 2px dashed black;
+}
+p~h2{
+
+    color:white;
+    background-color: black;
+    border: 4px ;
+}
+h1+p{
+    color:black;
+    background-color:skyblue;
+    border: 3px dashed black;
+}
+li~li{
+    color:black;
+    background-color: pink;
+    border: 2px dashed black;
+}
+div h1{
+
+    color: red;
+    background-color: antiquewhite;
+    border: 2px dashed black;
+}
+input[type="time"]{
+    color: red;
+    background-color: antiquewhite;
+}
+a:link{
+    text-decoration: none;
+    color:orangered;
+}
