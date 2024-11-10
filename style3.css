@@ -1,0 +1,24 @@
+p::first-line{
+    background-color:antiquewhite ;
+    color: red;
+}
+h1::before{
+    content: Tanya;
+    color: yellowgreen;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.container{
+    border: 3px solid red;
+    height: 50vh;
+    width:50vh;
+    font-size: 10px;
+
+}
+.child{
+    border: 3px solid green;
+    height: 50%;
+    width:50%;
+    font-size: 4em;
+}
