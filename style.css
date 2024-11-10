@@ -1,40 +1,48 @@
-div p{
-    color: red;
-    background-color: antiquewhite;
-    border: 2px dashed black;
+/* .container{
+    border: 2px solid red;
+    height: 30vh;
+    width: 40vw;
+    /* margin-bottom: 30px;
+    margin-left: 40px; */
+    /* margin: 50px; */
+    margin:50px 60px 30px 300px;
+} */
+.container1{
+    border: 2px solid green;
+    height: 30vh;
+    width: 40vw;
+    margin: 50px;
+    
 }
-div>p{
-    color: red;
-    background-color: antiquewhite;
-    border: 2px dashed black;
+*{
+    margin: 0;
+    padding: 0;
 }
-p~h2{
+.container{
+    border: 2px solid red;
+    border-radius: 50%;
+    background:red;
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.container1{
+    border: 2px  solid green;
+    border-radius: 50%;
+    background: green;
+    width: 230px;
+    height: 230px;
+    margin-top: 80px;
+    margin-left: 60px;
+}
 
-    color:white;
-    background-color: black;
-    border: 4px ;
-}
-h1+p{
-    color:black;
-    background-color:skyblue;
-    border: 3px dashed black;
-}
-li~li{
-    color:black;
-    background-color: pink;
-    border: 2px dashed black;
-}
-div h1{
-
-    color: red;
-    background-color: antiquewhite;
-    border: 2px dashed black;
-}
-input[type="time"]{
-    color: red;
-    background-color: antiquewhite;
-}
-a:link{
-    text-decoration: none;
-    color:orangered;
+.container2{
+    border: 2px solid blue;
+    border-radius : 50%;
+    background: blue;
+    width: 180px;
+    height: 180px;
+    margin-top: 60px;
+    margin-left: 60px;
 }
