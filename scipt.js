@@ -1,22 +1,31 @@
-//OBJECT: Collection of key value pair
+// let button=document.querySelector('.btn');
+// console.log(button);
 
-let obj={}
+// let para=document.querySelector('.text')
+// para.innerText ="Hello world";
+// console.log(para);
 
-let person={
-    fullname:"Tanya",
-    age:24, 
-    salary: 5769,
-    id:233,
-    projectdetails:{
-        projectId:2928,
-        projectTitile:"Code js"
-    }
-}
-// console.log(person.age);//access for paticular variable:- .  and []
+// let para=document.querySelector('.text')
+// para.innerText="<h1>Good morning</h1>"
+// console.log(para);
 
-console.log(person.projectdetails.projectTitile);
-console.log(person["age"]);
+// let para=document.querySelector('.text')
+// para.innerHTML="<h1>Good morning</h1>"
+// para.classList.add("para4");
 
-for(let key in person){
-    console.log(person[key]);
-}
+// // para.style.color="red"
+// para.style.border="2px solid green"
+// para.style.backgroundColor="grey"
+
+// console.log(para);
+
+let button=document.getElementById("btn")
+let para=document.querySelector('.text')
+button.addEventListener("click",()=>{
+    para.innerHTML="<h1>Good morning</h1>"
+    para.classList.add("para4");
+    
+    // para.style.color="red"
+    para.style.border="2px solid green"
+    para.style.backgroundColor="grey"
+})
