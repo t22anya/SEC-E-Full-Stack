@@ -1,23 +1,24 @@
-.container{
+body{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
-.movies{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-    justify-content: center;
-    align-items: center;
-}
-.img{
-    height: 300px;
+.container{
+    border: 2px solid grey;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px;
     width: 300px;
+    height: 500px;
+    gap: 4px 4px;
 }
-.card{
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px;
-    box-shadow: 2px 2px 2px grey;
+
+#output{
+    grid-column: 1 / span 3;
+    border-bottom: 2px solid black;
+}
+
+.btn{
+    margin: 8px;
 }
