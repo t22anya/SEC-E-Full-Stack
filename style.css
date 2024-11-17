@@ -1,20 +1,23 @@
 .container{
-    border: 2px solid red;
-    height: 90vh;
-    width:90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
-
-.box{
-    border: 2px solid green;
-    height: 100px;
-    width: 100px;
-    /* transform: translateX(200px); */
+.movies{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
 }
-.box:hover{
-    /* transform: translateY(200px); */
-    /* transform: scaleX(2.5); */
-    /* transform: rotate(-50deg); */
-    /* transform: skewX(50deg); */
-    transform-origin: 200px;
-    background-color: aqua;
+.img{
+    height: 300px;
+    width: 300px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px grey;
 }
